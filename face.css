@@ -1,0 +1,80 @@
+ .mouth {
+	position:fixed;
+left:0%;
+float: bottom;
+height: 50%;
+z-index:1;
+
+}
+ .eyes {
+	position:fixed;
+left:10%;
+top:0%;
+z-index:0;
+}
+.nose {
+	position:fixed;
+left:0%;
+//float: center;
+//top:0%;
+width: 100%;
+height: 100%;
+z-index:-3;
+}
+
+.face {
+}
+
+
+html,body ,.face{
+width: 100%;
+height: 100%;
+//background-color:blue;
+}
+
+/*  --------  and (max-width: 900px)  and (min-width: 600px)--------  */
+@media screen  {
+html,body,.face {
+width: 100%;
+height: 100%;
+} 
+
+.mouth{
+width: 100%;
+height: 50%;
+position: absolute;
+bottom:0px;
+z-index:1;
+}
+  
+ .eyes {
+width:80%;
+z-index:0;
+}
+.nose {
+width:100%;
+z-index:-3;
+}
+  #mouthy {
+  
+    width: 100%;
+	height: 100%;
+	
+  }
+
+ #eye-left {
+ width:40%;
+ float: left;
+ }
+ #eye-right {
+ width:40%;
+ float: right;
+ }
+ #nosey {
+ width: 100%;
+ height: 100%;
+ }
+}
+
+
+
